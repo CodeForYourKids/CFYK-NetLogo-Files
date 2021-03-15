@@ -54,7 +54,7 @@ to setup
   ask links [
     set shape "default"
     set color blue
-    set thickness 0.4
+    set thickness 0.2
     stamp
   ]
   ask turtle 0 [
@@ -112,11 +112,11 @@ end
 GRAPHICS-WINDOW
 210
 10
-647
-448
+639
+439
 -1
 -1
-13.0
+13
 1
 10
 1
@@ -134,72 +134,54 @@ GRAPHICS-WINDOW
 1
 1
 ticks
-30.0
+30
 
 BUTTON
-12
-16
-75
-49
-NIL
+45
+115
+135
+158
+Graph!
 setup
 NIL
 1
 T
 OBSERVER
 NIL
-R
+NIL
 NIL
 NIL
 1
 
 SLIDER
-9
-68
-181
-101
+10
+65
+182
+98
 y-intercept
 y-intercept
 -15
 15
-0.0
+0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-8
-111
-180
-144
+10
+15
+182
+48
 slope
 slope
 -5
 5
-0.0
+0
 0.25
 1
 NIL
 HORIZONTAL
-
-BUTTON
-92
-14
-155
-47
-NIL
-go
-T
-1
-T
-OBSERVER
-NIL
-E
-NIL
-NIL
-1
-
 @#$#@#$#@
 ## WHAT IS IT?
 
@@ -524,17 +506,17 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.0.2
+NetLogo 6.2.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
 default
-0.0
--0.2 0 0.0 1.0
-0.0 1 1.0 0.0
-0.2 0 0.0 1.0
+0
+-0.2 0 0 1
+0 1 1 0
+0.2 0 0 1
 link direction
 true
 0
@@ -542,15 +524,15 @@ Line -7500403 true 150 150 90 180
 Line -7500403 true 150 150 210 180
 
 dashed
-0.0
--0.2 0 0.0 1.0
-0.0 1 2.0 2.0
-0.2 0 0.0 1.0
+0
+-0.2 0 0 1
+0 1 2 2
+0.2 0 0 1
 link direction
 true
 0
 Line -7500403 true 150 150 90 180
 Line -7500403 true 150 150 210 180
 @#$#@#$#@
-0
+
 @#$#@#$#@
